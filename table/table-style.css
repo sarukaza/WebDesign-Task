@@ -1,0 +1,12 @@
+@charset "utf-8";
+table,th,td{
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 游ゴシック, serif;
+}
