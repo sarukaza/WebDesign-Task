@@ -1,0 +1,20 @@
+@charset "utf-8";
+.text-yellowgreen{
+    color: yellowgreen;
+}
+
+span{
+    border: 3px dotted black;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-aquamarine{
+    background-color: aquamarine;
+}
