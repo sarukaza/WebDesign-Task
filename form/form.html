@@ -17,13 +17,13 @@
             姓　　　　　　　:<input type="text" name="last_name"><br>
             名　　　　　　　:<input type="text" name="first_name"><br>
             住所　　　　　　:<input type="text" name="adress"><br>
-            メールアドレス　:<input type="email" name="mail"><br>
+            メールアドレス　:<input type="email" name="email"><br>
             電話番号　　　　:<input type="tel" name="tel"><br>
             生年月日　　　　:<input type="date" name="birthday" value="1990-01-01"><br>
             年齢　　　　　　:<input type="number" name="age" min="0" max="150"> 歳<br>
-            性別　　　　　　:<label><input type="radio" name="gender" value="男「0」"> 男</label>
-            性別　　　　　　:<label><input type="radio" name="gender" value="女「1」"> 女</label>
-            性別　　　　　　:<label><input type="radio" name="gender" value="その他「2」"> その他</label>
+            性別　　　　　　:<label><input type="radio" name="gender" value="0"> 男</label>
+            <label><input type="radio" name="gender" value="1"> 女</label>
+            <label><input type="radio" name="gender" value="2"> その他</label>
         </fieldset>
 
         <fieldset>
@@ -31,15 +31,15 @@
             英数字8文字以上で入力してください。<br>
             <input type="password" name="password"><br>
             確認のためもう一度入力してください。<br>
-            <input type="password" name="password_confilm"><br>
+            <input type="password" name="password_confirm"><br>
         </fieldset>
 
         <fieldset>
             <legend>希望メールマガジン</legend>
-            <label><input type="checkbox" name="magazine" value="IT「1」"> IT</label>
-            <label><input type="checkbox" name="mail" value="営業「2」"> 営業</label>
-            <label><input type="checkbox" name="mail" value="接客「3」"> 接客</label>
-            <label><input type="checkbox" name="mail" value="医療「4」"> 医療</label>
+            <label><input type="checkbox" name="magazine" value="1"> IT</label>
+            <label><input type="checkbox" name="magazine" value="2"> 営業</label>
+            <label><input type="checkbox" name="magazine" value="3"> 接客</label>
+            <label><input type="checkbox" name="magazine" value="4"> 医療</label>
         </fieldset>
 
         <fieldset>
@@ -52,5 +52,6 @@
 
     </form>
 
+</body>
 
 </html>
